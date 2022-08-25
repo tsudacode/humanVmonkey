@@ -336,8 +336,8 @@ tf.reset_default_graph()
 #third arg is the performance threshold: sys.argv[3]
 #fourth arg is run number: sys.argv[4]
 #fifth arg is the gpu: sys.argv[5]
-#so: python3 a3c_btsuda_humanVmonkey_task.py [NETSZ] [PERFTHRESH] [RUNNO] [GPU]
-#e.g. python3 a3c_btsuda_humanVmonkey_task.py 25 5000 1.0 0 0
+#so: python3 rnn_model.py [NETSZ] [PERFTHRESH] [RUNNO] [GPU]
+#e.g. python3 rnn_model.py 25 5000 1.0 0 0
 
 NETSZ = int(sys.argv[1]) #number of neurons in the RNN
 EPS_TO_TRAIN_ON = int(sys.argv[2])
