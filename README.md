@@ -1,7 +1,7 @@
 # humanVmonkey
 
 Model from:  
-Tsuda B, Richmond BJ, Sejnowski TJ. *Exploring strategy differences between humans and monkeys with recurrent neural networks.*
+Tsuda B, Richmond BJ, Sejnowski TJ. *Exploring strategy differences between humans and monkeys with recurrent neural networks.* https://doi.org/10.1371/journal.pcbi.1011618
 
 **rnn_model.py** contains recurrent neural network model trained by reinforcement learning.  
 
